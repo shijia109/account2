@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#FFF"
+        >
+
+    <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:layout_gravity="center"
+            >
+
+
+        <LinearLayout
+                android:background="#68f"
+                android:layout_margin="0dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="51.5dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4月"
+                        android:textSize="27sp"
+                        android:textColor="#ffeeedf0"
+                        android:id="@+id/textView_main_month_now"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/layout_main__this_month"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:background="#FFF"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                <LinearLayout
+                        android:orientation="vertical"
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="fill_parent">
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="收入金额："
+                            android:textSize="20sp"
+                            android:gravity="center_vertical"
+                            android:textColor="#e11"
+                            android:id="@+id/textView"/>
+                    <TextView
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:textColor="#1e1"
+                            android:textSize="20sp"
+                            android:text="支出金额："
+                            android:id="@+id/textView2"/>
+                    <TextView
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:text="预算余额："
+                            android:id="@+id/textView3"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="fill_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            >
+                        <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+                            <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="¥"
+                                    android:textSize="20sp"
+                                    android:gravity="center_vertical"
+                                    android:textColor="#000"
+                                    android:id="@+id/textView4"/>
+                            <TextView
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:layout_width="match_parent"
+                                    android:textColor="#000"
+                                    android:textSize="20sp"
+                                    android:text="¥"
+                                    android:id="@+id/textView5"/>
+                            <TextView
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+
+                                    android:layout_width="match_parent"
+                                    android:textColor="#000"
+                                    android:textSize="20sp"
+                                    android:text="¥"
+                                    android:id="@+id/textView6"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_weight="0.8"
+                                android:layout_height="match_parent"
+                                android:gravity="end"
+                                >
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="0.00"
+                                    android:textSize="20sp"
+                                    android:gravity="center_vertical"
+                                    android:textColor="#ffee1111"
+                                    android:id="@+id/textView_main_income_this_month"/>
+                            <TextView
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:layout_width="wrap_content"
+                                    android:textColor="#ff11ee11"
+                                    android:textSize="20sp"
+                                    android:text="0.00"
+                                    android:id="@+id/textView_main_outlay_this_month"/>
+                            <TextView
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:layout_width="wrap_content"
+                                    android:textColor="#000"
+                                    android:textSize="20sp"
+                                    android:text="0.00"
+                                    android:id="@+id/textView_main_remaining_this_month"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="0.6"
+                                android:layout_height="match_parent" android:orientation="vertical" >
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <Button
+                android:background="#44a"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="记 账"
+                android:textSize="24sp"
+                android:textColor="#fff"
+                android:id="@+id/button_keep_account"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:background="#69f"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <LinearLayout
+                android:background="#ffb"
+                android:id="@+id/layout_main_today"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" android:weightSum="1">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:text="今日:"
+                    android:id="@+id/textView7"
+                    android:layout_weight="0.25"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.75"
+                    >
+
+                <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:textColor="#e11"
+                            android:textSize="22sp"
+                            android:text="收入:"
+                            android:id="@+id/textView8"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|right"
+                            android:textColor="#e11"
+                            android:textSize="22sp"
+                            android:layout_marginRight="7dp"
+                            android:text="0.00"
+                            android:id="@+id/textView_main_income_today"
+                            />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:textColor="#1e1"
+                            android:textSize="22sp"
+                            android:layout_marginLeft="7dp"
+                            android:text="支出:"
+                            android:id="@+id/textView12"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|right"
+                            android:textColor="#1e1"
+                            android:textSize="22sp"
+                            android:text="0.00"
+                            android:id="@+id/textView_main_outlay_today"
+                            />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:background="#ff9"
+                android:id="@+id/layout_main_this_week"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:text="本周:"
+                    android:id="@+id/textView14"
+                    android:layout_weight="0.25"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.75"
+                    >
+
+                <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:textColor="#e11"
+                            android:textSize="22sp"
+                            android:text="收入:"
+                            android:id="@+id/textView16"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|right"
+                            android:textColor="#e11"
+                            android:textSize="22sp"
+                            android:layout_marginRight="7dp"
+                            android:text="0.00"
+                            android:id="@+id/textView_main_income_this_week"
+                            />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:textColor="#1e1"
+                            android:textSize="22sp"
+                            android:layout_marginLeft="7dp"
+                            android:text="支出:"
+                            android:id="@+id/textView15"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|right"
+                            android:textColor="#1e1"
+                            android:textSize="22sp"
+                            android:text="0.00"
+                            android:id="@+id/textView_main_outlay_this_week"
+                            />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:background="#ff3"
+                android:id="@+id/layout_main__this_year"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:text="全年:"
+                    android:id="@+id/textView17"
+                    android:layout_weight="0.25"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.75"
+                    >
+
+                <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:textColor="#e11"
+                            android:textSize="22sp"
+                            android:text="收入:"
+                            android:id="@+id/textView18"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|right"
+                            android:textColor="#e11"
+                            android:textSize="22sp"
+                            android:layout_marginRight="7dp"
+                            android:text="0.00"
+                            android:id="@+id/textView_main_income_this_year"
+                            />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:textColor="#1e1"
+                            android:textSize="22sp"
+                            android:layout_marginLeft="7dp"
+                            android:text="支出:"
+                            android:id="@+id/textView19"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|right"
+                            android:textColor="#1e1"
+                            android:textSize="22sp"
+                            android:text="0.00"
+                            android:id="@+id/textView_main_outlay_this_year"
+                            />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+            android:background="#0a6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01">
+    </LinearLayout>
+</LinearLayout>
+

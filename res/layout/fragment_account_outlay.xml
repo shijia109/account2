@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFF"
+        >
+
+
+    <LinearLayout
+            android:background="#ff1"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            >
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="账目编辑"
+                android:textColor="#e11"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+                android:background="#Faa"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.25"
+                    android:layout_height="fill_parent">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:text="日期："
+                        android:textSize="20sp"
+                        android:textColor="#111"
+                        android:gravity="fill_vertical|right"
+                        android:id="@+id/textView9"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8">
+                <TextView
+                        android:layout_marginRight="60dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="20dp"
+                        android:textColor="#111"
+                        android:gravity="center"
+                        android:text="2015-4-10"
+                        android:id="@+id/textView_account_outlay_date"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:background="#F8e"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.25"
+                    android:layout_height="fill_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="标题："
+                        android:textSize="20sp"
+                        android:textColor="#111"
+                        android:gravity="fill_vertical|right"
+                        android:id="@+id/textView11"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8">
+                <EditText
+                        android:gravity="center"
+                        android:layout_marginRight="50dp"
+                        android:background="@null"
+                        android:hint="输入标题"
+                        android:textSize="20sp"
+                        android:textColor="#111"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editText_account_outlay_title"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:background="#F6F"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.25"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="金额："
+                        android:textSize="20sp"
+                        android:textColor="#111"
+                        android:gravity="fill_vertical|right"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8" >
+
+                <EditText
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="#111"
+                        android:background="@null"
+                        android:layout_marginRight="50sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editText_account_outlay_money"
+                        android:hint="输入金额"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:background="#F4F"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.25"
+                    android:layout_height="fill_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="类别："
+                        android:textSize="20sp"
+                        android:textColor="#111"
+                        android:gravity="fill_vertical|right"
+                        android:id="@+id/textView14"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#111"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:text="吃饭1"
+                            android:id="@+id/textView_account_outlay_type_big"
+                            />
+                    <TextView
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#111"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:text="吃饭2"
+                            android:id="@+id/textView_account_outlay_type_small"
+                            />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:textColor="#111"
+                            android:textSize="35sp"
+                            android:gravity="center_vertical|left"
+                            android:text=">"
+                            android:id="@+id/textView20"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            >
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                >
+            <Button
+                    android:id="@+id/button_account_outlay_save_and_exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_account_income_save_exit"
+                    android:textSize="22sp"
+                    android:text="保存"
+                    />
+            <Button
+                    android:id="@+id/button_account_outlay_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_account_income_save"
+                    android:textSize="22sp"
+                    android:text="继续保存"
+                    />
+            <Button
+                    android:id="@+id/button_account_outlay_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_account_income_cancel"
+                    android:textSize="22sp"
+                    android:text="取消"
+                    />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

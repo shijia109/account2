@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrIncome">
+        <item >工资</item>
+        <item >外快</item>
+        <item >彩票</item>
+        <item >其他</item>
+    </string-array>
+
+    <string-array name="arrOutlayBig">
+        <item >餐饮</item>
+        <item >交通</item>
+        <item >住宿</item>
+        <item >娱乐</item>
+        <item >日用</item>
+        <item >服饰</item>
+        <item >随礼</item>
+    </string-array>
+
+    <string-array name="arrOutlaySmall_0">
+        <item>吃饭</item>
+        <item>请客</item>
+        <item>饮料</item>
+        <item>烟酒</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="arrOutlaySmall_1">
+        <item>公交</item>
+        <item>出租</item>
+        <item>地铁</item>
+        <item>加油</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="arrOutlaySmall_2">
+        <item>房租</item>
+        <item>宾馆</item>
+        <item>水费</item>
+        <item>电费</item>
+        <item>燃气费</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="arrOutlaySmall_3">
+        <item>KTV</item>
+        <item>酒吧</item>
+        <item>电影</item>
+        <item>景区</item>
+        <item>游乐场</item>
+        <item>彩票</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="arrOutlaySmall_4">
+        <item>学习用品</item>
+        <item>生活用品</item>
+        <item>电子产品</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="arrOutlaySmall_5">
+        <item>衣服</item>
+        <item>裤子</item>
+        <item>鞋</item>
+        <item>袜子</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="arrOutlaySmall_6">
+        <item>结婚</item>
+        <item>生子</item>
+        <item>升学</item>
+        <item>过寿</item>
+        <item>其他</item>
+    </string-array>
+
+
+</resources>
